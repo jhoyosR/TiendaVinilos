@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retronilos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="menu container"> 
+            <a href="#" class="logo">Retronilos</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Envíos</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Portada</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="images/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>Estrena los mejores álbumes en Vinilos</p>
+                <a href="#" class="btn-1">Compra aquí</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f1.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>The Dark Side Of The Moon</h3>
+                <a href="#" class="btn-2">Pink Floyd <br>$29.99</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f2.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Rumours</h3>
+                <a href="#" class="btn-2">Fleetwood Mac $19.99</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/f3.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Enema Of The State</h3>
+                <a href="#" class="btn-2">Blink-182 <br> $39.99</a>
+            </div>
+        </div>
+    </section>    
+
+    <main class="products container" id="lista-1">
+
+        <h2>Vinilos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="images/1.png" alt="">
+                <div class="product-txt">
+                    <h3>Graduation</h3>
+                    <p>Kanye West</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/2.png" alt="">
+                <div class="product-txt">
+                    <h3>The College Dropout</h3>
+                    <p>Kanye West</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/3.png" alt="">
+                <div class="product-txt">
+                    <h3>To Pimp a Butterfly</h3>
+                    <p>Kendrick Lamar</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/4.png" alt="">
+                <div class="product-txt">
+                    <h3>Parachutes</h3>
+                    <p>Coldplay</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/5.png" alt="">
+                <div class="product-txt">
+                    <h3>Watch The Throne</h3>
+                    <p>Jay Z & Kanye West</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/6.png" alt="">
+                <div class="product-txt">
+                    <h3>The Eminem Show</h3>
+                    <p>Eminem</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/7.PNG" alt="">
+                <div class="product-txt">
+                    <h3>After Hours</h3>
+                    <p>The Weeknd</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/8.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Nothing But The Best</h3>
+                    <p>Frank Sinatra</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/9.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Dream Your Life Away</h3>
+                    <p>Vance Joy</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/10.PNG" alt="">
+                <div class="product-txt">
+                    <h3>AM</h3>
+                    <p>Arctic Monkeys</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="10">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/11.PNG" alt="">
+                <div class="product-txt">
+                    <h3>The Divine Feminine</h3>
+                    <p>Mac Miller</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="11">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/12.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Man On The Moon II: The Legend Of Mr.Rager</h3>
+                    <p>Kid Cudi</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="12">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/13.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Man On The Moon: The End Of Day</h3>
+                    <p>Kid Cudi</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="13">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/14.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Brightside</h3>
+                    <p>The Lumineers</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="14">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/15.PNG" alt="">
+                <div class="product-txt">
+                    <h3>The Lumineers</h3>
+                    <p>The Lumineers</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="15">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/16.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Honestly, Nevermind</h3>
+                    <p>Drake</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="16">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/17.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Depression Cherry</h3>
+                    <p>Beach House</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="17">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/18.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Born To Die - The Paradise Edition</h3>
+                    <p>Lana Del Rey</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="18">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/19.PNG" alt="">
+                <div class="product-txt">
+                    <h3>Utopia</h3>
+                    <p>Travis Scott</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="19">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/20.PNG" alt="">
+                <div class="product-txt">
+                    <h3>The Melodic Blue</h3>
+                    <p>Baby Keem</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="20">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/21.PNG" alt="">
+                <div class="product-txt">
+                    <h3>At. Long. Last. A$AP</h3>
+                    <p>A$AP Rocky</p>
+                    <p class="precio">$49.99</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="21">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <section class="icons container">
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i1.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Explora álbumes completos</h3>
+                <p>
+                    Vive la música como nunca antes.
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i2.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Autenticidad en cada nota</h3>
+                <p>
+                    Vinilos, el sonido genuino de la música.
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i3.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Conexión nostálgica</h3>
+                <p>
+                    Una experiencia sensorial única.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>La genialidad de los vinilos</h3>
+            <p>
+                Los vinilos son mucho más que simples discos; son portadores de una 
+                experiencia musical única. Al colocar la aguja en el surco, se desata 
+                la calidez y autenticidad del sonido analógico, capturando matices y 
+                detalles que se pierden en otras formas de reproducción. La ritualidad 
+                de seleccionar el vinilo, colocarlo con cuidado y dejarse envolver por 
+                la sinfonía que emerge es una conexión tangible con la música.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b2.jpg" alt="">
+            <h3>Colección Eminem</h3>
+            <p>
+                Embárcate en un viaje frenético a través de la genialidad lírica 
+                y el impacto cultural con esta excepcional colección de los álbumes 
+                de Eminem. Desde el explosivo debut de "The Slim Shady LP" hasta la 
+                introspección cruda de "The Marshall Mathers LP" y la resiliencia 
+                expresada en "Recovery", cada álbum es una ventana a la mente maestra 
+                del rap. Sumérgete en las letras ingeniosas y el ritmo implacable que 
+                define la carrera de Eminem.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b3.jpg" alt="">
+            <h3>Colección The Smiths</h3>
+            <p>
+                Sumérgete en la melancolía única y la poesía atemporal de The Smiths 
+                con esta impresionante colección de álbumes que capturan la esencia 
+                de la década de 1980. Desde las letras introspectivas de Morrissey 
+                hasta los cautivadores acordes de Johnny Marr, cada álbum es una obra 
+                maestra independiente.
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Contáctanos</h3>
+                <ul>
+                    <li><a href="#">RetronilosTiendaDeVinilos.com/contacto</a></li>
+                    <li><a href="#">Servicio al cliente</a></li>
+                    <li><a href="#">Retronilos@gmail.com</a></li>
+                    <li><a href="#">Reversión de Pago</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Aviso de privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Síguenos en:</h3>
+                <ul>
+                    <li><a href="#">Instagram: RetronilosOfficial</a></li>
+                    <li><a href="#">X: Retronilos</a></li>
+                    <li><a href="#">Facebook: RetronilosOfficial</a></li>
+                    <li><a href="#">Youtube: Retronilos - Vinilos Superiores</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Explora</h3>
+                <ul>
+                    <li><a href="#">Colección Completa</a></li>
+                    <li><a href="#">Sonido Auténtico</a></li>
+                    <li><a href="#">Arte Sonoro</a></li>
+                    <li><a href="#">Nostalgia Músical</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
